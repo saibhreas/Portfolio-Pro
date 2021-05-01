@@ -1,0 +1,30 @@
+/*Mobile Css for Depak modle page*/
+
+/*start clean*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+/*since this is the first sheet built, all 
+basic elmental tags are defined her, and will 
+be pasted into main style.css. And only 
+mobile changes will be reflected here.  */
+html,body {
+  font-family: ;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
