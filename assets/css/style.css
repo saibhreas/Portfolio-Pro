@@ -1,0 +1,302 @@
+/*start clean*/
+/* this is full Dark
+      background #1c313a
+      background-Primary #455a64
+      background-Light #718792
+      primary-text-color #fffde7
+      secondary-text-color #fff
+      */
+:root {
+  --primary-text-color: #fffde7;
+  --secondary-text-color: #fff;
+  --gin: #e0eae4;
+  --heliotrope: #e866ec;
+  --bc-dark: #000914;
+  --bc-med: #1c313a;
+  --bc-light: #455a64;
+    --test-color:#9782b5;
+}
+
+
+/* set content highlight color and background */
+::selection {
+  background-color: var(--bright-turquoise);
+  color: var(--outer-space);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+html {
+  /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Ubnutu-Regular, Ubunt-Mendium, Roboto, sans-serif;
+  background-color: var(--bc-med);
+}
+/*  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.625rem;
+  color: var(--primary-text-color);
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+h1 {
+  /* 4rem = 40px (4 * 10px) */
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: var(--test-color);
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+/*Utilities*/
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+linear-gradient-background1{
+  
+}
+.linear-gradient-background {
+  background-image: linear-gradient(
+    to right,
+    rgba(58, 53, 28, 0.2) 0%,
+    rgba(58, 53, 28, 0.5) 100%
+  );
+}
+
+.wide-header {
+  display: flex;
+  /* Defines how to distribute the empty space between child elements */
+  /*justify-content: space-between;*/
+  padding: 20px;
+  Background:var(--bc-dark) color
+  color: #fff;
+  border-style: solid;
+  border-width: 3px;  
+}
+.wide-header img {
+  max-height: 125px;
+  border-radius: 45%;
+  box-shadow: 5px 7px 10px
+}
+.wide-header h1{
+  padding-left: 5px;
+  padding-top:35px;
+  text-align: left;
+}
+.wide-header h3{
+  padding-right:10px;
+  padding-top:45px;
+  text-align: right;
+}
+
+
+/hero*/
+
+/*end hero*/
+
+/*Start main */
+
+main {
+  display: flex;
+ /* Forces elements to the next line if they don't fit */
+ flex-wrap: wrap;
+ margin-top: 1%;
+}
+.main-container {
+  display: flex;
+  flex-direction: column; /*don't think I need this*/
+  background-color: var(--bc-light);
+  padding: 10px;
+}
+
+
+
+/*will probably only need in main css
+ Padding 
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f7c08a;
+  color: #333;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.container {
+  margin: auto;
+  max-width: 95%;
+  overflow: auto;
+  padding: 0 20px;
+}
+#logo {
+  margin:25px;
+  max-width:135px;
+}
+
+.container
+.main-2column{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  
+
+}
+.main-2column nav-column{
+  flex:1 0 20%;
+  text-align: right;
+  margin-right: 50px;
+  Background:var(--gin) color
+}
+.main-2column main-content{
+  flex:1 0 75%;
+  margin-right: 50px;
+  Background:var(--test-color) color;
+  border: 2px solid #fff;
+  border-radius: 50px 0px 50px 0px;
+}
+
+.container-wide{
+/*single column flex
+  flex: 100%;
+  background-color: blue;
+  border: 2px solid #fff;
+  border-radius: 50px 0px 50px 0px;
+
+}
+.container-res{
+ /*2 column Flex 
+}
+
+.container-box{
+ /* small square format 
+ background-color: rgb(158, 45, 64);
+ border: 2px solid #fff;
+ /*border-radius: 50px 0px 50px 0px;*/
+
+
+/*From other site*/
+/* Navbar 
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}*/
+
+/* Showcase */
+/*
+#showcase {
+  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+*/

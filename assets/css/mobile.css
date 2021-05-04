@@ -1,0 +1,92 @@
+/* 480px */
+/*Mobile Css for Depak modle page*/
+/* this is mobile Dark
+      background #1c313a
+      background-Primary #455a64
+      background-Light #718792
+      primary-text-color #fffde7
+      secondary-text-color #fff
+      */
+
+/*start clean*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+/*since this is the first sheet built, all 
+basic elmental tags are defined her, and will 
+be pasted into main style.css. And only 
+mobile changes will be reflected here.  */
+html,body {
+  font-family: Ubnutu-Regular, Ubunt-Mendium, sans-serif;
+  line-height: 1.7em;
+  background-color: #1c313a;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+/*Utilities*/
+/*will probably only need in main css*/
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+.container-wide{
+/*single column flex*/
+  background-color: blue;
+  border: 2px solid #fff;
+  border-radius: 50px 0px 50px 0px;
+
+}
+.container-res{
+ /*2 column Flex*/ 
+}
+
+.container-box{
+ /* small square format*/ 
+ background-color: rgb(158, 45, 64);
+ border: 2px solid #fff;
+ /*border-radius: 50px 0px 50px 0px;*/
+}
+
+/* mobile limits*/
+.mobile-wrapper{
+  max-width: 480px;
+  dislpay:flex;
+  -ms-flex-direction: column;
+}
+.mobile-header{
+  max-width: 480px;
+  max-height: 150px;
+  display: block;
+  padding: 15px;
+  text-align: left;
+  background-color: aqua;
+  border: 2px solid black;
+}
+.mobile-header h1{
+  display: block:block;
+  font-size: 18px;
+  color: #fffde7;
+
+}
+.mobile-header-logo{
+
+}
+.mobile-header-logo img{
+  display: block;
+  margin: 5px auto;
+  max-width: 100%;
+}
