@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*start clean*/
 /* this is full Dark
       background #1c313a
@@ -24,11 +25,17 @@
   color: var(--outer-space);
 }
 
+=======
+/*Mobile Css for Depak modle page*/
+
+/*start clean*/
+>>>>>>> 2e334832e13453731cca4debe391467b531ce89d
 * {
   box-sizing: border-box;
   margin: 0;
   padding:0;
 }
+<<<<<<< HEAD
 html {
   /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
   font-size: 62.5%;
@@ -78,6 +85,20 @@ h6 {
 
 a {
   color: var(--test-color);
+=======
+
+/*since this is the first sheet built, all 
+basic elmental tags are defined her, and will 
+be pasted into main style.css. And only 
+mobile changes will be reflected here.  */
+html,body {
+  font-family: ;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+>>>>>>> 2e334832e13453731cca4debe391467b531ce89d
   text-decoration: none;
 }
 
@@ -87,6 +108,7 @@ h1, h2, h3 {
 
 p {
   margin: 10px 0;
+<<<<<<< HEAD
 }
 /*Utilities*/
 .float-right {
@@ -300,3 +322,6 @@ main {
   line-height: 1.7em;
 }
 */
+=======
+}
+>>>>>>> 2e334832e13453731cca4debe391467b531ce89d

@@ -1,6 +1,7 @@
 This will Be my professional portfolio.
 This is just the initialization so far.
 
+<<<<<<< HEAD
 ???*******************************************
 **********************************************
 MUST CONTAIN*************************
@@ -14,6 +15,9 @@ README.md with:
 
 
 **************************************
+=======
+
+>>>>>>> 2e334832e13453731cca4debe391467b531ce89d
 *Initial Site build using Depak Model
 site beign built mobile first
 mobile html is single column
