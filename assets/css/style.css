@@ -2,17 +2,21 @@
   box-sizing: border-box;
 }
 
+/*add roots-->*/
 
 
-
+/*Elementals*/
 body {
   font-family: Roboto;
+  margin: 0;
+  border-radius: 15px 0px;
+  height: 100%;
   margin: 0;
 }
 
 header,
 footer {
-  background: #13293d;
+  background: #2f4f4f;
   color: #e2edf6; 
 }
 
@@ -33,7 +37,7 @@ header img{
 nav {
   padding-top: 5px;
   display: flex;
-  background-color: #4e4b48;
+  background-color: #4d5f5c;
 }
 
 nav a {
@@ -51,8 +55,19 @@ main {
 aside {
   flex: 3;
   max-width: 175px;
-  background-color: #bcb5b5;
+  background-color: #4d5f5c;
   padding: 20px;
+}
+aside img{
+  margin-top: 20px; 
+  margin-left: 20%;
+  max-width: 75px;
+  padding: 2px 2px;
+  border: 2px solid #bfbfbf;
+  background-color:#eee7e7;
+  
+  
+
 }
 
 section {
@@ -66,10 +81,13 @@ section {
 footer {
   padding: 20px;
   text-align: center;
-  background: #13293d;
+  background: #2f4f4f;
   color: #fff;
 }
 
+
+
+/*Querries*/
 @media screen and (max-width: 768px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */
   main
@@ -79,6 +97,9 @@ footer {
   /* Make the sidebar stack below the body */
   aside {
     order: 2;
+    max-width: 760px;
+    background-color: #bb8588;
+    border-radius: 15px 0px;
   }
   /* Change the header background */
   header {
@@ -86,12 +107,13 @@ footer {
   }
   /* Change the navbar and footer background */
   nav,
+  aside,
   footer {
     background-color: #bb8588;
   }
 }
 
-/* from the other sheet*/
+/*Utilites: containers */
 .container1 {
   flex: 4;
   background-color:	#eee7e7;
@@ -102,17 +124,29 @@ footer {
   align-items: flex-start;
   border-radius: 15px 0px;
 }
+.container2 {
+  flex: 4;
+  background-color:	#eee7e7;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+    align-items: flex-start;
+  
+}
 
-/* Added rotation, box-shadow, border-radius */
+/* Added box-shadow, border-radius */
 .card {
   border-style: solid;
   border-width: 1px;
   border-radius: 15px 0px;
   padding: 10px;
   flex: 0 0 200px;
-  
+  transition: transform .2s; /* Animation */
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
+}
+card:hover{
+  transform: scale(1.5);
 }
 
 /* Added border-radius to match the card */
