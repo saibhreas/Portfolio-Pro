@@ -1,17 +1,12 @@
-Profesional CSS only Styled Portfolio
-https://github.com/saibhreas/Portfolio-Pro
-This is an CSS styled Portfolio using basic css, no external libraries.
-<img src="assets/img/screenShot1.jpg" width 300>
-![](assets/img/screenShot1.jpg)
+# CSS only styled example of a Portfolio
 
+https://saibhreas.github.io/Portfolio-Pro/
 
+## Vanilla CSS using basic HTML
 
-
-tTyring to lad screen shots
-
-![alt text](https://github.com/saibhreas/Portfolio-Pro/main/screenShot.jpg?raw=true)
-![plot](./assets/img/screenShot1.png)
-
+  * Illustrates basic link and style functions
+  * No external libraries.
+  * Document window only
 
 
 
@@ -19,10 +14,13 @@ tTyring to lad screen shots
 
 
 
-This will Be my professional portfolio.
-This is just the initialization so far.
 
-???*******************************************
+
+
+
+
+
+*******************************************
 **********************************************
 MUST CONTAIN*************************
 
@@ -71,3 +69,5 @@ You are required to submit BOTH of the following for review:
 * The URL of the deployed application.
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+#### i love dolphins
+ 
